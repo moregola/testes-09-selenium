@@ -1,0 +1,194 @@
+{
+  "id": "d07ced5d-53b6-4854-9420-cf2a332bc77d",
+  "version": "2.0",
+  "name": "Ed08-TesteDeSoftware",
+  "url": "https://ts-scel.herokuapp.com",
+  "tests": [{
+    "id": "589c2873-29e9-427f-abc9-896cc101c67d",
+    "name": "CadastrarLivroComSucesso",
+    "commands": [{
+      "id": "fa762496-629d-4d1a-91bd-bb3014bfb484",
+      "comment": "",
+      "command": "open",
+      "target": "/login",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e858ced9-75a6-4526-b597-602588433dd7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1417x1029",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6db42849-bfbc-4db5-ba45-52d36eca6394",
+      "comment": "",
+      "command": "click",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2811e752-83f7-4731-8df6-cd75da7ec188",
+      "comment": "",
+      "command": "type",
+      "target": "name=username",
+      "targets": [
+        ["name=username", "name"],
+        ["css=.form > input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='username']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "jose"
+    }, {
+      "id": "bc46e421-0617-43ea-aa84-54e1b517c8e9",
+      "comment": "",
+      "command": "type",
+      "target": "name=password",
+      "targets": [
+        ["name=password", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='password']", "xpath:attributes"],
+        ["xpath=//input[2]", "xpath:position"]
+      ],
+      "value": "123"
+    }, {
+      "id": "7e157951-5a1d-438a-a112-c3fe06491111",
+      "comment": "",
+      "command": "click",
+      "target": "css=button",
+      "targets": [
+        ["css=button", "css:finder"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "11868120-52b6-4950-9fb9-5eb432444090",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Livros",
+      "targets": [
+        ["linkText=Livros", "linkText"],
+        ["css=li:nth-child(3) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Livros')]", "xpath:link"],
+        ["xpath=//a[contains(@href, '/sig/livro')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Livros')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3be3d89-f6a1-4542-a41d-5a326e00e6c4",
+      "comment": "",
+      "command": "click",
+      "target": "id=isbn",
+      "targets": [
+        ["id=isbn", "id"],
+        ["name=isbn", "name"],
+        ["css=#isbn", "css:finder"],
+        ["xpath=//input[@id='isbn']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4f4ee99a-4896-4cd3-85e1-150c92d986db",
+      "comment": "",
+      "command": "click",
+      "target": "id=isbn",
+      "targets": [
+        ["id=isbn", "id"],
+        ["name=isbn", "name"],
+        ["css=#isbn", "css:finder"],
+        ["xpath=//input[@id='isbn']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7c15f964-2ca6-462e-8c7e-23f26dbe7304",
+      "comment": "",
+      "command": "type",
+      "target": "id=isbn",
+      "targets": [
+        ["id=isbn", "id"],
+        ["name=isbn", "name"],
+        ["css=#isbn", "css:finder"],
+        ["xpath=//input[@id='isbn']", "xpath:attributes"],
+        ["xpath=//div/input", "xpath:position"]
+      ],
+      "value": "4567"
+    }, {
+      "id": "9f8146e8-1dd6-4530-8eb8-fa957eeb9814",
+      "comment": "",
+      "command": "click",
+      "target": "id=autor",
+      "targets": [
+        ["id=autor", "id"],
+        ["name=autor", "name"],
+        ["css=#autor", "css:finder"],
+        ["xpath=//input[@id='autor']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9745dfe3-5da9-43e7-83ec-26c37be4af24",
+      "comment": "",
+      "command": "type",
+      "target": "id=autor",
+      "targets": [
+        ["id=autor", "id"],
+        ["name=autor", "name"],
+        ["css=#autor", "css:finder"],
+        ["xpath=//input[@id='autor']", "xpath:attributes"],
+        ["xpath=//div[2]/div/input", "xpath:position"]
+      ],
+      "value": "Jose Alright"
+    }, {
+      "id": "9d5de583-14ec-4fde-84a5-463dd4ee6823",
+      "comment": "",
+      "command": "type",
+      "target": "id=titulo",
+      "targets": [
+        ["id=titulo", "id"],
+        ["name=titulo", "name"],
+        ["css=#titulo", "css:finder"],
+        ["xpath=//input[@id='titulo']", "xpath:attributes"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "Teste do Jose"
+    }, {
+      "id": "e1c2832d-2510-4e67-98d3-64825b5d7ca9",
+      "comment": "",
+      "command": "click",
+      "target": "css=.btn:nth-child(1)",
+      "targets": [
+        ["css=.btn:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='Cadastrar Livro']", "xpath:attributes"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "969094f5-30b6-4435-af01-32e42efaeb86",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "107c3fbb-12c5-42c1-8235-efc22a8dddb1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["589c2873-29e9-427f-abc9-896cc101c67d"]
+  }],
+  "urls": ["https://ts-scel.herokuapp.com/"],
+  "plugins": []
+}
